@@ -28,7 +28,7 @@ public class Perimeter {
 	height = keyboard.nextDouble();
 	System.out.println("What is the rectangles length?");
 	length = keyboard.nextDouble();
-	System.out.println("The perimeter is " + length*height );
+	System.out.println("The perimeter is " + ((2*length)+(2*height)) );
 	}
 }
 	
