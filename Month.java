@@ -42,7 +42,7 @@ public enum MonthNumber{JAN, FEB, MAR,APR,MAY,JUN,JUL,AUG,SEP,OCT,NOV,DEC}
 	MonthNumber.NOV,
 	MonthNumber.DEC}; //new array of MonthNumber values
 	
-input = (MonthNumber) JOptionPane.showInputDialog(null,"What month is it?","Month",JOptionPane.INFORMATION_MESSAGE,null, choicesA, choicesA[2]);	
+	input = (MonthNumber) JOptionPane.showInputDialog(null,"What month is it?","Month",JOptionPane.INFORMATION_MESSAGE,null, choicesA, choicesA[2]);	
 
 while (input!=null){
 	
