@@ -41,9 +41,11 @@ public enum MonthNumber{JAN, FEB, MAR,APR,MAY,JUN,JUL,AUG,SEP,OCT,NOV,DEC}
 	MonthNumber.OCT,
 	MonthNumber.NOV,
 	MonthNumber.DEC}; //new array of MonthNumber values
-		
+	
+input = (MonthNumber) JOptionPane.showInputDialog(null,"What month is it?","Month",JOptionPane.INFORMATION_MESSAGE,null, choicesA, choicesA[2]);	
 
-	input = (MonthNumber) JOptionPane.showInputDialog(null,"What month is it?","Month",JOptionPane.INFORMATION_MESSAGE,null, choicesA, choicesA[2]);
+while (input!=null){
+	
 
 //	input =  JOptionPane.showInputDialog(MonthNumber,"What month is it?","Month",JOptionPane.INFORMATION_MESSAGE,null, choicesA, choicesA[2]);
 	
@@ -63,11 +65,14 @@ public enum MonthNumber{JAN, FEB, MAR,APR,MAY,JUN,JUL,AUG,SEP,OCT,NOV,DEC}
 
 	case SEP: OCT: NOV:
 	JOptionPane.showMessageDialog(null,"Welcome to the foliage season!");
-	break;
+	break;}
 
-	}//end of switchcase
+input = (MonthNumber) JOptionPane.showInputDialog(null,"What month is it?","Month",JOptionPane.INFORMATION_MESSAGE,null, choicesA, choicesA[2]);
+	}//end of while
+
 	
-//	System.out.println(input);
+
+System.out.println("have a nice day");
 
 	/*
 AccountType[] choices = { AccountType.Administrator, AccountType.Student, AccountType.Staff, AccountType.Guest }; 
