@@ -80,7 +80,7 @@ System.out.println();
 	
 	j=0;
 	while(j<spaces){//do this many spaces
-  	System.out.print("S");
+  	System.out.print(" ");
 	j++;
 	}
 		
@@ -104,7 +104,7 @@ i=1;
 	starMax-=2;
 	j=0;
 	while(j<i){ //number of spaces
-  	System.out.print("S");
+  	System.out.print(" ");
 	j++;
 	}
 
@@ -116,6 +116,8 @@ i=1;
 	
 	System.out.println();
 	i++;//counter for total run times
+
+
  }
 /*
 
